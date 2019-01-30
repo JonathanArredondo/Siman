@@ -1,6 +1,6 @@
 ﻿'Se abre el navegador
 SystemUtil.Run DataTable("p_explorador") & ".exe", "https://simantestlanding.puntosleal.com/"
-
+Wait 5
 'Selecciona el boton Inciar Sesion
 Browser("GetBeautyFull").Page("Pagina Principal").Link("INICIA SESION").Click @@ script infofile_;_ZIP::ssf2.xml_;_
 
