@@ -1,6 +1,6 @@
 ﻿'Se abre el navegador
 SystemUtil.Run "firefox.exe", "https://simantestlanding.puntosleal.com/"
-Wait 9
+Wait 8
 'Se presiona el boton Aqui
 Browser("GetBeautyFull").Page("Pagina Principal").Link("AQUÍ").Click
 
